@@ -1,0 +1,55 @@
+/* Young Sang Kwon 000847777 Assignment5 Shooting Game */
+
+/* heading style */
+#heading {
+    background-color:black;
+    stroke:red;
+    animation-name: startup;
+    animation-duration: 3s;
+    stroke-width: 1;
+    font-size:24pt;
+    text-anchor:middle;
+    font-variant: small-caps;
+}
+
+/* Title animation */
+@keyframes startup {
+    from {
+        stroke : black;
+        font-size : 0pt;
+    }                
+    to {
+        stroke : skyblue;
+        font-size : 24pt;
+    }
+}
+
+/* body style */
+body {
+    margin:0; 
+    background-color:black; 
+    font-family: "Comic Sans MS", "Comic Sans", cursive; 
+    color:yellow;
+    width:800px;
+    margin-left:auto;margin-right:auto;
+    text-align:center
+}
+
+/* board style */
+#board {
+    border:2px solid lightblue; 
+    margin:10px; 
+    border-radius:20px
+} 
+
+/* button style */
+button {
+    padding:12px; 
+    margin: 5px 20px 5px 20px; 
+    background-color:lightblue; 
+    border: 3px solid lightblue; 
+    color:black; 
+    border-radius:10px;
+    font-family:"Comic Sans MS", "Comic Sans", cursive; 
+    font-size:14pt                
+}
